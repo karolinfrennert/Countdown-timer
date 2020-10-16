@@ -12,13 +12,6 @@ const calculateTime = () => {
 
 
 setInterval(() => console.log(calculateTime()), 1000);
-
-
-
-
-
-
-
 const date = document.querySelector('.today-date');
 
 
