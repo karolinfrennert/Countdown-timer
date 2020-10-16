@@ -7,7 +7,7 @@ const endTime = Date.now() + 30 * ONE_MINUTE
 const calculateTime = () => {
   const updatedTime = endTime - Date.now();
   if (updatedTime <= 0) return 0;
-  return updatedTime
+  return updatedTime;
 }
 
 
